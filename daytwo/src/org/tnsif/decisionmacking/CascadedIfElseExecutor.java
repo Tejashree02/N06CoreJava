@@ -1,4 +1,8 @@
 //Program to demonstrate on to check if a person is eligible to donate the blood
+
+//for comparing more than two conditions
+
+
 package org.tnsif.decisionmacking;
 import java.util.*;
 public class CascadedIfElseExecutor {
