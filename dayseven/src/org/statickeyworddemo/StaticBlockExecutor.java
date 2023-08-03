@@ -10,7 +10,7 @@ public class StaticBlockExecutor {
 	
 	//static block is used to initialize static variable and we cannot initialize any non static variables inside the static block
 	static {
-		Salary=76;
+//		Salary=76;
 		str="MET";
 	}
 	
