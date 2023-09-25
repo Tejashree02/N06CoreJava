@@ -7,7 +7,7 @@ public class ThreadDemo {
 		
 		ChildClassOne t1 =  new ChildClassOne();
 		t1.start();
-		t1.start();			//illegalthread state if started more than once without stoping the first state.
+		t1.start();			//illegal thread state if started more than once without stoping the first state.
 		ChildClassTwo t2 =  new ChildClassTwo();
 		t2.start();
 		try {
