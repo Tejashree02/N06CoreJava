@@ -19,13 +19,13 @@ public class Executor {
 			System.out.println(studlist);
 			
 			System.out.println("____________add_student__________________");
-			st = new student1(7,"Tejashree",65);
-			service.addStudent(new student1(1,"abc",76));
-			service.addStudent(new student1(2,"def",65));
-			service.addStudent(new student1(3,"ahi",54));
-			service.addStudent(new student1(4,"jkl",74));
-			service.addStudent(new student1(5,"ano",63));
-			service.addStudent(new student1(6,"pqr",88));
+			st = new student1(72,"Tejashree",65);
+			service.addStudent(new student1(12,"abc",76));
+			service.addStudent(new student1(22,"def",65));
+			service.addStudent(new student1(32,"ahi",54));
+			service.addStudent(new student1(42,"jkl",74));
+			service.addStudent(new student1(52,"ano",63));
+			service.addStudent(new student1(62,"pqr",88));
 			
 			
 			
@@ -47,12 +47,12 @@ public class Executor {
 //			System.out.println(n>=0?n+"records deleted!!!":"No record");
 			
 			System.out.println("_____________update_per_______________");
-			n=service.updateStudentsPer(5);
+			n=service.updateStudentsPer(52);
 			System.out.println(n>=0?n+"records updated":"No record");
 			
 			
 			System.out.println("____________update_by_rollnumber_________________");
-			n=service.updateStudentsPerByRollno(3,6);
+			n=service.updateStudentsPerByRollno(32,6);
 			System.out.println(n>=0?n+"records updated":"No record");
 			
 		} catch (SQLException e) {
