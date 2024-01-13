@@ -17,7 +17,7 @@ import jakarta.persistence.OneToOne;
 @Entity
 public class CustomerEntity {
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer cus_id;
 	private String cus_name;
 	private Integer cus_phone;
